@@ -10,7 +10,7 @@ LogiSurge is a full-pipeline machine learning application designed to predict th
 This repository demonstrates a rigorous, end-to-end data science workflow: from exploratory data analysis and leakage-safe data imputation to hyperparameter tuning, SHAP interpretability, and interactive deployment via Streamlit.
 
 ## Live Application
-Access the live interactive deployment here: **[Link to Streamlit App]**
+Access the live interactive deployment here: **[https://logisurge-sla-prediction-zplsvxgrwfdvzplj5rf6wh.streamlit.app]**
 
 *Note: The app includes a "Load Random Sample" feature that pulls representative real-world data from the test set, automatically processes it through the live encoding pipeline, and generates a prediction.*
 
@@ -45,7 +45,7 @@ These metrics indicate that the model explains ~82% of the variance in delivery 
 
 ## Interpretability (SHAP)
 To ensure the model is not a black box, SHAP (SHapley Additive exPlanations) TreeExplainer was utilized.
-*(Include a screenshot of your SHAP summary plot or waterfall plot here to showcase feature importance. Example: `![SHAP Plot](link_to_image)`)*
+*(Include a screenshot of your SHAP summary plot or waterfall plot here to showcase feature importance. Example: `![SHAP Plot](images/shap_summary.png)`)*
 
 ## Local Setup & Installation
 
