@@ -28,8 +28,8 @@ df_clean = df[
     (df['distance_km'] > 0.5) & (df['distance_km'] <= 50.0)
 ]
 
-# Picking 50 perfect, flawless rows
-df_final = df_clean.sample(50, random_state=42) 
+# Generating a representative sample of 200 rows for demo purposes
+df_final = df_clean.sample(200, random_state=42) 
 df_final.to_csv('sample_orders.csv', index=False)
 
-print("✅ Perfect 'sample_orders.csv' generated! Outliers destroyed.")
+print("✅ 'sample_orders.csv' generated successfully. Data cleaned and outliers removed.")
