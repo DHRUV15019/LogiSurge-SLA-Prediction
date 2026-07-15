@@ -45,7 +45,7 @@ These metrics indicate that the model explains ~82% of the variance in delivery 
 
 ## Interpretability (SHAP)
 To ensure the model is not a black box, SHAP (SHapley Additive exPlanations) TreeExplainer was utilized.
-*(Include a screenshot of your SHAP summary plot or waterfall plot here to showcase feature importance. Example: `![SHAP Plot](images/shap_summary.png)`)*
+![SHAP Plot](images/shap_summary.png)
 
 ## Local Setup & Installation
 
